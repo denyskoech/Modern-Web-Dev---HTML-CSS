@@ -1,6 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: sans-serif;
+}
+
+.container {
+  width: 825px;
+  margin: 100px auto;
   border: 5px solid black;
+  /* margin-top: 100px;
+  margin-bottom: 100px; */
+  /* padding: 20px; */
 }
 
 h2 {
@@ -11,6 +24,8 @@ h2 {
   line-height: 1.5;
   font-size: 22px;
   letter-spacing: normal;
+  margin-bottom: 30px;
+  padding: 20px;
 }
 
 .price {
@@ -18,6 +33,20 @@ h2 {
   font-size: 20px;
   color: black;
   font-family: sans-serif;
+  margin-bottom: 20px;
+}
+
+.img {
+  margin-bottom: 20px;
+}
+
+a {
+  margin-bottom: 30px;
+}
+
+li {
+  margin-bottom: 10px;
+  margin-left: 20px;
 }
 
 p,
@@ -26,6 +55,7 @@ li {
   font-family: sans-serif;
   color: black;
   font-size: 15px;
+  margin-bottom: 30px;
 }
 
 .light-shipping {
@@ -50,6 +80,8 @@ a:active {
 h3 {
   text-transform: uppercase;
   font-size: 16px;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .ul-list {
@@ -63,6 +95,9 @@ button {
   text-transform: uppercase;
   font-size: 20px;
   cursor: pointer;
+  width: 100%;
+  padding: 15px;
+  border-top: 5px solid black;
 }
 
 button:hover {
