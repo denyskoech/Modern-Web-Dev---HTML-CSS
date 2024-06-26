@@ -11,6 +11,7 @@ body {
   width: 825px;
   margin: 100px auto;
   border: 5px solid black;
+  position: relative;
   /* margin-top: 100px;
   margin-bottom: 100px; */
   /* padding: 20px; */
@@ -40,10 +41,10 @@ h2 {
   margin-bottom: 20px;
 }
 
-a {
+/* a {
   margin-bottom: 30px;
   display: inline-block;
-}
+} */
 
 li {
   margin-bottom: 10px;
@@ -104,4 +105,46 @@ button {
 button:hover {
   background-color: white;
   color: black;
+}
+
+.sale {
+  color: white;
+  background-color: red;
+  letter-spacing: 5px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-family: monospace;
+  padding: 7px 15px;
+  position: absolute;
+  display: inline-block;
+  top: -17px;
+  left: -34px;
+}
+
+.color-box {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  margin: 5px; /* Optional: adds space between the boxes */
+}
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
+.yellow {
+  background-color: yellow;
+}
+.purple {
+  background-color: purple;
+}
+
+.colors {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
