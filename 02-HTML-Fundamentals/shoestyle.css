@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -15,6 +16,29 @@ body {
   /* margin-top: 100px;
   margin-bottom: 100px; */
   /* padding: 20px; */
+}
+
+.img-float {
+  float: left;
+  width: 275px;
+}
+
+.Shipping-float {
+  float: right;
+  width: 275px;
+  /* margin-left: 20px; */
+}
+
+.product-float {
+  float: right;
+  width: 275px;
+  /* margin-left: 20px; */
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 h2 {
@@ -35,6 +59,7 @@ h2 {
   color: black;
   font-family: sans-serif;
   margin-bottom: 20px;
+  display: inline-block;
 }
 
 .img {
@@ -61,10 +86,12 @@ li {
 }
 
 .light-shipping {
+  float: right;
   color: #777;
   font-size: 12px;
   text-transform: uppercase;
   font-weight: bold;
+  /* display: inline-block; */
 }
 
 a:link,
@@ -123,8 +150,8 @@ button:hover {
 }
 
 .color-box {
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   display: inline-block;
   margin: 5px; /* Optional: adds space between the boxes */
 }
