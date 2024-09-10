@@ -244,12 +244,6 @@ h2::before {
   right: -25px;
 }
 
-/* Flex box */
-.main-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
 /* Resolving conflicts */
 /* #copyright {
   color: red;

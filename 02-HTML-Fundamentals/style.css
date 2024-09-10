@@ -184,3 +184,10 @@ button {
   margin-top: 10px;
   margin-left: 20px;
 }
+
+/* Flex box */
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
